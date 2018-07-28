@@ -16,6 +16,6 @@ Route::get('/', function () {
 });
 
 
-Route::group(['prefix' => 'admin'], function () {
+Route::group(['prefix' => 'gogo'], function () {
     Voyager::routes();
 });
